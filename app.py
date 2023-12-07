@@ -16,9 +16,11 @@ if input_data is not None:
     #st.write(input_data)
     #st.write(type(input_data))
 
-    
+load_model = open('cnn_data_label.pkl', 'rb')   
+st.write(pickle.load(load_model)) 
 
  #load_model = open(input_data._file_urls, 'rb') 
 model = pickle.load(input_data)
+
 
 st.write(model)
