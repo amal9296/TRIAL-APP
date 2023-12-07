@@ -1,0 +1,6 @@
+Pillow
+opencv-python-headless
+numpy 
+tensorflow 
+tqdm
+pandas
